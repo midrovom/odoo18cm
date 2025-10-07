@@ -24,5 +24,6 @@
     'installable': True,
     'assets': {
         
-    }
+    },
+    "theme": True,
 }
