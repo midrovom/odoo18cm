@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <odoo>
 
-    <template id="template_header_custom_1" name="Header Style Custom - 1" inherit_id="website.layout">
+    <template id="template_header_custom_1" name="Header Style Custom - 1" inherit_id="website.layout" active="False">
         <xpath expr="//header" position="attributes">
             <attribute name="t-attf-class" add="tp-custom-header" separator=" "/>
         </xpath>
