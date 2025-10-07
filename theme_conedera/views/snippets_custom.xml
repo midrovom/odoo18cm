@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <odoo>
 
-    <template id="snippet_options_conedera" inherit_id="theme_prime.snippet_options" name="Conedera Header Options">
+    <template id="snippet_options_conedera" inherit_id="theme_prime.snippet_options" name="Conedera Header Options" primary="True">
         <xpath expr="//we-select[@data-variable='header-template']/we-button[last()]" position="after">
             <we-button title="Conedera Header Style 4"
                     data-name="tp_header_style_4_conedera_opt"
