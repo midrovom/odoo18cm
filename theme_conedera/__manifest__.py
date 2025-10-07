@@ -18,8 +18,8 @@
         'droggol_theme_common',
     ],
     'data': [
-        'views/headers.xml',
-        'views/snippets.xml',
+        # 'views/headers.xml',
+        # 'views/snippets.xml',
     ],
     'auto_install': False,
     'application': False,
