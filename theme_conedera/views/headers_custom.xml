@@ -8,16 +8,17 @@
     </template> -->
 
 
-    <record id="template_header_style_4" model="ir.ui.view">
-        <field name="name">product_catg_test_extended</field>
-        <field name="inherit_id" search="[('key', '=', 'theme_prime.template_header_style_4')]"/>
+    <record id="template_header_style_4_conedera" model="theme.ir.ui.view">
+        <field name="name">template_header_style_4_conedera</field>
+        <field name="inherit_id" ref="theme_prime.template_header_style_4"/>
         <field name="type">qweb</field>
-        <field name="key">theme_condera.template_header_style_4</field>
+        <field name="key">theme_conedera.template_header_style_4</field>
         <field name="arch" type="xml">
             <xpath expr="//div[@class='mb-1']" position="replace">
                 <div class="mb-1">Mi Carrito</div>
             </xpath>
         </field>
     </record>
+
 
 </odoo>
