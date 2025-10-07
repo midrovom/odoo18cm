@@ -15,8 +15,7 @@
     ],
     'depends': [
         'theme_prime',
-        'website',
-        'web_editor',
+        'droggol_theme_common',
     ],
     'data': [
         'views/headers_custom.xml',
