@@ -5,7 +5,7 @@
         <xpath expr="//we-select[@data-variable='header-template']/we-button[last()]" position="after">
             <we-button title="Conedera Header Style 4"
                     data-name="tp_header_style_4_conedera_opt"
-                    data-customize-website-views="theme_conedera.template_header_style_4_conedera"
+                    data-customize-website-views="theme_conedera.template_header_custom_style_1"
                     data-customize-website-variable="'conedera_style_4'"
                     data-img="/theme_conedera/static/src/img/options/header_custom_1.svg"/>
         </xpath>
