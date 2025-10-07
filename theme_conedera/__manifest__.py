@@ -16,7 +16,6 @@
     'depends': [
         'website',
         'theme_prime',
-        'droggol_theme_common',
     ],
     'data': [
         # 'views/headers.xml',
