@@ -2,9 +2,8 @@
 <odoo>
 
     <template id="template_header_style_4" name="Header Style Conedera" inherit_id="theme_prime.template_header_style_4">
-        <xpath expr="//div[@class='tp-account-info']//div[@class='mb-1'][1]" position="replace">
-            <div class="mb-1">Mi Carrito</div>
-            <t t-esc="'****** TEST HEADER ******'"/>
+        <xpath expr="//div[@class='col-auto py-3 o_not_editable']" position="replace">
+            <h1 style="color:black; font-size:48px;">TEST HEADER</h1>
         </xpath>
 
     </template>
