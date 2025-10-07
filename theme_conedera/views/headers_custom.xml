@@ -8,7 +8,7 @@
     </template> -->
 
 
-    <record id="template_header_style_4_conedera" model="theme.ir.ui.view">
+    <!-- <record id="template_header_style_4_conedera" model="theme.ir.ui.view">
         <field name="name">template_header_style_4_conedera</field>
         <field name="inherit_id" ref="theme_prime.template_header_style_4"/>
         <field name="type">qweb</field>
@@ -18,7 +18,26 @@
                 <div class="mb-1">Mi Carrito</div>
             </xpath>
         </field>
-    </record>
+    </record> -->
+
+    <!-- Herencia del Header Style 4 del tema prime -->
+    <template id="template_header_style_4_conedera"
+              inherit_id="theme_prime.template_header_style_4"
+              name="Header Style 4 - Conedera">
+        
+        <!-- Ejemplo: cambiar texto "My Cart" a "Mi Carrito" -->
+        <xpath expr="//div[@class='mb-1' and contains(text(), 'My Cart')]" position="replace">
+            <div class="mb-1">Mi Carrito</div>
+        </xpath>
+
+        <!-- Ejemplo: agregar clase adicional al header -->
+        <xpath expr="//div[contains(@class, 'tp-header-box')]" position="attributes">
+            <attribute name="class" add="header-conedera-style" separator=" "/>
+        </xpath>
+
+    </template>
+
+
 
 
 </odoo>
