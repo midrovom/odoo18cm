@@ -2,7 +2,7 @@
 <odoo>
 
     <template id="template_header_custom_1" name="Header Style Custom - 1" inherit_id="website.layout" active="False">
-        <xpath expr="//header" position="attributes">
+        <!-- <xpath expr="//header" position="attributes">
             <attribute name="t-attf-class" add="tp-custom-header" separator=" "/>
         </xpath>
         <xpath expr="//header//nav" position="replace">
@@ -10,7 +10,6 @@
                 <div class="container">
                     <div class="row align-items-center">
                         <div class="col-auto py-3">
-                            <!-- Brand -->
                             <t t-call="website.placeholder_header_brand">
                                 <t t-set="_link_class" t-valuef="d-inline-block"/>
                             </t>
@@ -85,11 +84,9 @@
             </div>
             <t t-call="website.navbar">
                 <t t-set="_navbar_classes" t-valuef="d-none d-lg-block shadow-sm"/>
-                <!-- Navbar -->
                 <div id="o_main_nav" class="container">
                     <t t-call="website.navbar_nav">
                         <t t-set="_nav_class" t-value="'flex-grow-1'"/>
-                        <!-- Menu -->
                         <t t-foreach="website.menu_id.child_id" t-as="submenu">
                             <t t-call="website.submenu">
                                 <t t-set="item_class" t-value="'nav-item'"/>
@@ -100,7 +97,7 @@
                 </div>
             </t>
             <t t-call="theme_prime.template_header_mobile"/>
-        </xpath>
+        </xpath> -->
     </template>
 
 </odoo>
