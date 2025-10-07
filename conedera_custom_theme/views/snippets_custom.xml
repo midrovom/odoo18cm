@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <template id="snippet_options_custom" inherit_id="theme_prime.snippet_options">
+        <xpath expr="//we-select[@data-variable='header-template']/we-button[last()]" position="after">
+            <!-- Nuevo Header -->
+            <we-button title="Header Custom Style - 1"
+                       data-name="tp_header_custom_1_opt"
+                       data-customize-website-views="theme_conedera.template_header_custom_1"
+                       data-customize-website-variable="'custom_style_1'"
+                       data-img="/theme_conedera/static/src/img/options/header_custom_1.svg"/>
+        </xpath>
+    </template>
+</odoo>
