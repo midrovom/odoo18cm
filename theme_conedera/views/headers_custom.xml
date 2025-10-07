@@ -1,15 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <odoo>
 
-    <template id="template_header_custom_1" name="Header Style Custom - 1" inherit_id="website.layout" active="False">
-        <!-- <xpath expr="//header" position="attributes">
-            <attribute name="t-attf-class" add="tp-custom-header" separator=" "/>
-        </xpath>
-        <xpath expr="//header//nav" position="replace">
+    <template id="template_header_style_4_conedera" name="Header Style Conedera" inherit_id="theme_prime.template_header_style_4" active="False">
+        <xpath expr="//div[@class='tp-header-box o_header_hide_on_scroll d-none d-lg-block o_colored_level o_cc']" position="replace">
             <div class="tp-header-box o_header_hide_on_scroll d-none d-lg-block o_colored_level o_cc">
                 <div class="container">
                     <div class="row align-items-center">
                         <div class="col-auto py-3">
+                            <!-- Brand -->
                             <t t-call="website.placeholder_header_brand">
                                 <t t-set="_link_class" t-valuef="d-inline-block"/>
                             </t>
@@ -39,7 +37,7 @@
                                             </t>
                                         </div>
                                         <div class="flex-grow-1 ms-3 d-none d-xl-block">
-                                            <div class="mb-1">My Cart</div>
+                                            <div class="mb-1">Mi Carrito</div>
                                             <a class="tp-cart-sidebar-action" href="#"><p class="dr-update-cart-total h6 mb-0"><t t-out="website.sale_get_order().amount_total" t-options="{'widget': 'monetary', 'display_currency': website.currency_id}"/></p></a>
                                         </div>
                                     </div>
@@ -82,22 +80,7 @@
                     </div>
                 </div>
             </div>
-            <t t-call="website.navbar">
-                <t t-set="_navbar_classes" t-valuef="d-none d-lg-block shadow-sm"/>
-                <div id="o_main_nav" class="container">
-                    <t t-call="website.navbar_nav">
-                        <t t-set="_nav_class" t-value="'flex-grow-1'"/>
-                        <t t-foreach="website.menu_id.child_id" t-as="submenu">
-                            <t t-call="website.submenu">
-                                <t t-set="item_class" t-value="'nav-item'"/>
-                                <t t-set="link_class" t-value="'nav-link'"/>
-                            </t>
-                        </t>
-                    </t>
-                </div>
-            </t>
-            <t t-call="theme_prime.template_header_mobile"/>
-        </xpath> -->
+        </xpath>
     </template>
 
 </odoo>
