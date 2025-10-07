@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+    <template id="conedera_header_options" inherit_id="theme_prime.snippet_options">
+        <xpath expr="//we-select[@data-variable='header-template']/we-button[last()]" position="after">
+            <we-button title="Conedera Header Style" 
+                    data-name="tp_header_style_conedera_opt" 
+                    data-customize-website-views="theme_conedera.template_header_style_conedera" 
+                    data-customize-website-variable="'conedera_style_4'" />
+        </xpath>
+    </template>
+
+</odoo>

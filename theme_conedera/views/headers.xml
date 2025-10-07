@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+    <template id="template_header_style_conedera" name="Header Style Conedera" inherit_id="website.layout" active="False">
+        <xpath expr="//header//nav" position="replace">
+            <t t-call="website.navbar">
+                <h1>MOSTRANDO TEST</h1>
+            </t>
+        </xpath>
+    </template>
+    
+</odoo>
