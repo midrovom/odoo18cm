@@ -18,7 +18,7 @@
         'droggol_theme_common',
     ],
     'data': [
-        'views/headers_custom.xml',
+        'views/theme_prime_conedera.xml',
     ],
     'auto_install': False,
     'application': False,
