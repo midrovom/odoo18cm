@@ -20,27 +20,10 @@
         </field>
     </record> -->
 
-    <template id="template_header_custom_style_1" inherit_id="website.layout" name="Header Style 1">
+    <template id="template_header_style_4" inherit_id="theme_prime.template_header_style_4" name="Header Style 1">
         <!-- Sustituyes el header original -->
         <xpath expr="//header" position="replace">
-            <header id="theme_basic_header" class="o_header o_standard_header">
-                <div class="container d-flex justify-content-between align-items-center py-3">
-                    <a href="/" class="navbar-brand text-primary fw-bold fs-4">
-                        <i class="fa fa-gem"></i> MyBrand
-                    </a>
-                    <nav class="d-none d-md-flex gap-4">
-                        <a href="/" class="nav-link text-dark">Inicio</a>
-                        <a href="/shop" class="nav-link text-dark">Tienda</a>
-                        <a href="/contactus" class="nav-link text-dark">Contacto</a>
-                    </nav>
-                    <div class="d-flex align-items-center gap-3">
-                        <a href="/cart" class="text-dark">
-                            <i class="fa fa-shopping-cart fs-5"></i>
-                        </a>
-                        <a href="#" class="btn btn-primary btn-sm">Login</a>
-                    </div>
-                </div>
-            </header>
+            <header><h1>MOSTRANDO HEADER</h1></header>
         </xpath>
     </template>
 

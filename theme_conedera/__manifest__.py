@@ -19,7 +19,7 @@
     ],
     'data': [
         'views/headers_custom.xml',
-        'views/snippets_custom.xml',
+        # 'views/snippets_custom.xml',
     ],
     'auto_install': False,
     'application': False,
