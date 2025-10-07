@@ -28,14 +28,5 @@
         'web.assets_frontend': [
             ('extend', 'theme_prime.web.assets_frontend'),
         ],
-        'web._assets_primary_variables': [
-            ('extend', 'theme_prime.web._assets_primary_variables'),
-        ],
-        'web._assets_frontend_helpers': [
-            ('extend', 'theme_prime.web._assets_frontend_helpers'),
-        ],
-        'website.assets_wysiwyg': [
-            ('extend', 'theme_prime.website.assets_wysiwyg'),
-        ],
     },
 }
