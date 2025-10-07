@@ -26,7 +26,7 @@
     'installable': True,
     'assets': {
         'web.assets_frontend': [
-            ('extend', 'theme_prime.web.assets_frontend'),
+            'theme_prime/static/src/scss/*.scss',
         ],
     },
 }
