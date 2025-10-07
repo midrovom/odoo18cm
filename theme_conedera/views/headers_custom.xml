@@ -20,11 +20,15 @@
         </field>
     </record> -->
 
-    <template id="template_header_style_4" inherit_id="theme_prime.template_header_style_4" name="Header Style 1">
-        <!-- Sustituyes el header original -->
-        <xpath expr="//header" position="replace">
-            <header><h1>MOSTRANDO HEADER</h1></header>
+    <template id="template_header_custom" inherit_id="website.template_header_default" name="Custom Header">
+        
+        <!-- Ejemplo: agregar un nuevo botón al final del menú -->
+        <xpath expr="//ul[@class='navbar-nav align-items-center gap-2 flex-shrink-0 justify-content-end ps-3']" position="inside">
+            <li class="nav-item">
+                <a href="/contactus" class="btn btn-primary">Contáctanoooooos</a>
+            </li>
         </xpath>
+
     </template>
 
 
