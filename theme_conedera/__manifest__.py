@@ -14,8 +14,9 @@
         'static/description/conedera_screenshot.gif',
     ],
     'depends': [
-        'theme_prime',
-        'droggol_theme_common',
+        'website'
+        # 'theme_prime',
+        # 'droggol_theme_common',
     ],
     'data': [
         # 'views/headers.xml',
