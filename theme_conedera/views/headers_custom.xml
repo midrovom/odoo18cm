@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+    <template id="template_header_custom_1" name="Header Style Custom - 1" inherit_id="website.layout">
+        <xpath expr="//header" position="attributes">
+            <attribute name="t-attf-class" add="tc-custom-header" separator=" "/>
+        </xpath>
+        <!-- <xpath expr="//header//nav" position="replace">
+            <header>
+                <nav>
+                
+                </nav>
+            </header>
+        </xpath> -->
+    </template>
+
+</odoo>
