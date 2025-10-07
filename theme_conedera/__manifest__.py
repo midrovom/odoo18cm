@@ -1,6 +1,6 @@
 {
     'name': 'Theme Conedera',
-    'version': '17.0.1.0.0',
+    'version': '18.0.1.0.0',
     'description': '''
         Modulo personalizado para Odoo 17 CM
         Personalizacion de temas y snippets para la página de Conedera
