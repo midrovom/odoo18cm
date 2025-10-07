@@ -10,6 +10,9 @@
     'website': 'https://callphoneecuador.com',
     'license': 'LGPL-3',
     'category': 'Theme/eCommerce',
+    'images': [
+        'static/description/conedera_screenshot.gif',
+    ],
     'depends': [
         'theme_prime',
         'website',
