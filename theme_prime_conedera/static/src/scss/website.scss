@@ -20,8 +20,8 @@
 //     }
 // }
 
-.custom_cart.my_cart_quantity {
-    @include o-position-absolute($left: 20px, $top: -15px);
+.my_cart_quantity {
+    @include o-position-absolute($left: 20px !important, $top: -15px !important);
     padding: 0;
     border-radius: 40px;
     vertical-align: top;
