@@ -19,7 +19,6 @@
     ],
     'data': [
         'views/headers.xml',
-        # 'views/snippets.xml'
     ],
     'auto_install': False,
     'application': False,
