@@ -13,7 +13,7 @@
                                 <div t-attf-class="o_not_editable position-relative o_wsale_my_cart tp-cart-sidebar-action #{not show_cart and 'd-none'}">
                                     <a href="/shop/cart">
                                         <i class="dri dri-cart"/>
-                                        <sup class="my_cart_quantity badge bg-primary" t-out="website_sale_cart_quantity" t-att-data-order-id="request.session.get('sale_order_id', '')"/>
+                                        <sup class="my_cart_quantity cart-position badge bg-primary" t-out="website_sale_cart_quantity" t-att-data-order-id="request.session.get('sale_order_id', '')"/>
                                     </a>
                                 </div>
                             </t>

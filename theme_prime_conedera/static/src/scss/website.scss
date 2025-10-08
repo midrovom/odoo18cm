@@ -1,15 +1,5 @@
-@include media-breakpoint-up(lg) {
-    @if o-website-value('header-template') == 'prime_style_4' {
-        #wrapwrap > header {
-            .tp-header-box {
-                .tp-account-info {
-                    .my_wish_quantity, .my_cart_quantity {
-                        left: 20px !important;
-                        top: -15px !important;
-                    }
-                }
-            }
-        }
-    }
+.cart-position {
+    top: -15px;
+    left: 20px;
 }
 
