@@ -25,7 +25,7 @@
     'installable': True,
     'assets': {
         'web.assets_frontend': [
-            'theme_prime_conedera/static/src/scss/website.css',
+            'theme_prime_conedera/static/src/scss/website.scss',
         ]
     },
 }

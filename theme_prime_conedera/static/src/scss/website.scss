@@ -3,7 +3,7 @@
         .tp-account-info {
             .my_wish_quantity,
             .my_cart_quantity {
-                @include o-position-absolute($left: 20px, $top: -5px); // tu cambio
+                @include o-position-absolute($left: 15px, $top: -5px); // tu cambio
             }
         }
     }
