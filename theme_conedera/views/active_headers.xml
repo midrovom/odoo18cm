@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <odoo>
 
-    <record id="activate_header_style_4" model="ir.ui.view">
+    <record id="activate_header_style_4" model="theme.ir.ui.view">
         <field name="name">Activate Header Style 4</field>
         <field name="model">ir.ui.view</field>
         <field name="inherit_id" ref="theme_prime.template_header_style_4"/>
