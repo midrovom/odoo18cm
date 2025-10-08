@@ -1,9 +1,20 @@
-#wrapwrap > header {
-    .tp-header-box {
-        .tp-account-info {
-            .my_wish_quantity,
-            .my_cart_quantity {
-                @include o-position-absolute($left: 15px, $top: -5px); // tu cambio
+@include media-breakpoint-up(lg) {
+    @if o-website-value('header-template') == 'prime_style_4' {
+        #wrapwrap > header {
+            // Header
+            .tp-header-box {
+                border-bottom: 1px solid rgba($body-color, 0.12);
+                .tp-account-info {
+                    @include tp-font-icons {
+                        font-size: 1.2rem;
+                    }
+                    .my_wish_quantity, .my_cart_quantity {
+                        @include o-position-absolute($left: 10px, $top: -5px);
+                        padding: 0;
+                        border-radius: 40px;
+                        vertical-align: top;
+                    }
+                }
             }
         }
     }
