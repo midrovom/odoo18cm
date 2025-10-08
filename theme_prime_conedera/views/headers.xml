@@ -3,7 +3,7 @@
 
     <template id="template_header_style_4" inherit_id="theme_prime.template_header_style_4">
         <xpath expr="//div[@class='row align-items-center justify-content-end tp-account-info']" position="replace">
-            <div class="row align-items-center justify-content-end tp-account-info">
+            <div class="row align-items-center justify-content-end tp-account-info custom_my_cart">
                 <div class="col-auto my-1">
                     <div class="d-flex align-items-center">
                         <div class="flex-shrink-0">
@@ -13,7 +13,7 @@
                                 <div t-attf-class="o_not_editable position-relative o_wsale_my_cart tp-cart-sidebar-action #{not show_cart and 'd-none'}">
                                     <a href="/shop/cart">
                                         <i class="dri dri-cart"/>
-                                        <sup class="cart-position badge bg-primary" t-out="website_sale_cart_quantity" t-att-data-order-id="request.session.get('sale_order_id', '')"/>
+                                        <sup class="my_cart_quantity badge bg-primary" t-out="website_sale_cart_quantity" t-att-data-order-id="request.session.get('sale_order_id', '')"/>
                                     </a>
                                 </div>
                             </t>
