@@ -1,22 +1,11 @@
-$izq: 20px !default;
-$arr: -15px !default;
-
 @include media-breakpoint-up(lg) {
     @if o-website-value('header-template') == 'prime_style_4' {
         #wrapwrap > header {
-            // Header
             .tp-header-box {
-                border-bottom: 1px solid rgba($body-color, 0.12);
                 .tp-account-info {
-                    @include tp-font-icons {
-                        font-size: 1.2rem;
-                    }
                     .my_wish_quantity, .my_cart_quantity {
-                        @include o-position-absolute($left: $izq, $top: $arr);
-                        padding: 0;
-                        border-radius: 40px;
-                        vertical-align: top;
-                        background-color: black;
+                        left: 20px !important;
+                        top: -15px !important;
                     }
                 }
             }
