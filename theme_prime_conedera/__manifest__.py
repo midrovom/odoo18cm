@@ -9,7 +9,7 @@
     'author': 'Ing. Mauricio Idrovo',
     'website': 'https://callphoneecuador.com',
     'license': 'LGPL-3',
-    'category': 'Theme', # Theme/eCommerce
+    'category': 'Theme/eCommerce', # Theme/eCommerce
     'images': [
         'static/description/conedera_screenshot.gif',
     ],
