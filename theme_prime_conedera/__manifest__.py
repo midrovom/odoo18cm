@@ -11,7 +11,7 @@
     'license': 'LGPL-3',
     'category': 'Theme/eCommerce', # Theme/eCommerce
     'images': [
-        'static/description/screenshot.png',
+        'static/description/screenshot-2.png',
     ],
     'depends': [
         'website',
