@@ -26,6 +26,7 @@
     'assets': {
         'web.assets_frontend': [
             'theme_prime_conedera/static/src/scss/website.scss',
+            'theme_prime_conedera/static/src/css/website.css',
         ]
     },
 }
