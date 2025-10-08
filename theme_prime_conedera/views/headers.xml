@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <odoo>
 
-    <template id="template_header_style_conedera" inherit_id="theme_prime.template_header_style_4">
+    <template id="template_header_style_4" inherit_id="theme_prime.template_header_style_4">
         
         <xpath expr="//div[@class='tp-header-box o_header_hide_on_scroll d-none d-lg-block o_colored_level o_cc']" position="inside">
             <h1>PROBANDO TEST</h1>
