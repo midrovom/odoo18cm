@@ -11,19 +11,8 @@
 
     <template id="template_header_style_conedera" inherit_id="theme_prime.template_header_style_4" priority="20" active="True">
         
-        <!-- Ejemplo: Modificar el texto "My Cart" -->
-        <xpath expr="//div[contains(@class, 'tp-cart-sidebar-action')]//div[contains(text(), 'My Cart')]" position="replace">
-            <div>Mi Carrito</div>
-        </xpath>
-        
-        <!-- Ejemplo: Cambiar el texto "My Wishlist" -->
-        <xpath expr="//div[contains(text(), 'My Wishlist')]" position="replace">
-            <div>Mi Lista de Deseos</div>
-        </xpath>
-        
-        <!-- Ejemplo: Agregar una clase adicional -->
-        <xpath expr="//div[hasclass('tp-header-box')]" position="attributes">
-            <attribute name="class">tp-header-box my-custom-header</attribute>
+        <xpath expr="//div[@class='tp-header-box o_header_hide_on_scroll d-none d-lg-block o_colored_level o_cc']" position="inside">
+            <h1>PROBANDO TEST</h1>
         </xpath>
         
     </template>

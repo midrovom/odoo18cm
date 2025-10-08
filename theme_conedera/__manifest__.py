@@ -18,7 +18,7 @@
         'theme_prime',
     ],
     'data': [
-        'views/active_headers.xml',
+        # 'views/active_headers.xml',
         'views/headers.xml',
         # 'views/snippets.xml',
     ],
