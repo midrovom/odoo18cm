@@ -20,7 +20,6 @@
                         </div>
                         <div class="flex-grow-1 ms-3 d-none d-xl-block">
                             <div>Carrito</div>
-                            <!-- <a class="tp-cart-sidebar-action" href="#"></a> -->
                         </div>
                     </div>
                 </div>
