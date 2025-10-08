@@ -2,11 +2,6 @@
 <odoo>
 
     <template id="template_header_style_4" inherit_id="theme_prime.template_header_style_4">
-
-        <xpath expr="//div[@class='mb-1'][1]" position="replace">
-            <div class="mb-1">Carrito</div>
-        </xpath>
-
         <xpath expr="//div[@class='row align-items-center justify-content-end tp-account-info']" position="replace">
             <div class="row align-items-center justify-content-end tp-account-info">
                 <div class="col-auto my-1">

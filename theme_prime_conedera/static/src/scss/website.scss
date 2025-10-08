@@ -9,7 +9,7 @@
                         font-size: 1.2rem;
                     }
                     .my_wish_quantity, .my_cart_quantity {
-                        @include o-position-absolute($left: 10px, $top: -5px);
+                        @include o-position-absolute($left: 10px, $top: -10px);
                         padding: 0;
                         border-radius: 40px;
                         vertical-align: top;
