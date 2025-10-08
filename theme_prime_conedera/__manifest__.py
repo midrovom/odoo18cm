@@ -11,7 +11,7 @@
     'license': 'LGPL-3',
     'category': 'Theme/eCommerce', # Theme/eCommerce
     'images': [
-        'static/description/conedera_screenshot.gif',
+        'static/description/screenshot.png',
     ],
     'depends': [
         'website',
