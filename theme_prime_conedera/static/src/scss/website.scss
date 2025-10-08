@@ -20,24 +20,19 @@
 //     }
 // }
 
-// @include media-breakpoint-up(lg) {
-//     @if o-website-value('header-template') == 'prime_style_4' {
-//         #wrapwrap > header {
-//             .tp-header-box {
-//                 .tp-account-info {
-//                     .my_wish_quantity, .my_cart_quantity {
-//                         @include o-position-absolute($left: 20px, $top: -15px);
-//                     }
-//                 }
-//             }
-//         }
-//     }
-// }
 
-
-body .tp-header-box .tp-account-info {
-    .my_wish_quantity, .my_cart_quantity {
-        @include o-position-absolute($left: 20px, $top: -15px);
+@include media-breakpoint-up(lg) {
+    @if o-website-value('header-template') == 'prime_style_4' {
+        #wrapwrap > header {
+            .tp-header-box {
+                .tp-account-info {
+                    .my_wish_quantity, .my_cart_quantity {
+                        @include o-position-absolute($left: 20px, $top: -15px);
+                        border: 2px solid red !important; // Para debug
+                    }
+                }
+            }
+        }
     }
 }
 
