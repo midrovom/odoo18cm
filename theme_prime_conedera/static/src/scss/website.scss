@@ -1,3 +1,6 @@
+$izq: 20px !default;
+$arr: -15px !default;
+
 @include media-breakpoint-up(lg) {
     @if o-website-value('header-template') == 'prime_style_4' {
         #wrapwrap > header {
@@ -9,7 +12,7 @@
                         font-size: 1.2rem;
                     }
                     .my_wish_quantity, .my_cart_quantity {
-                        @include o-position-absolute($left: 20px, $top: -15px);
+                        @include o-position-absolute($left: $izq, $top: $arr);
                         padding: 0;
                         border-radius: 40px;
                         vertical-align: top;
