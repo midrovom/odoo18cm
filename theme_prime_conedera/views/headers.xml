@@ -6,6 +6,10 @@
         <xpath expr="//div[@class='tp-header-box o_header_hide_on_scroll d-none d-lg-block o_colored_level o_cc']" position="inside">
             <h1 style="color: black;">PROBANDO TESTTTTTT</h1>
         </xpath>
+
+        <xpath expr="//div[@class='mb-1'][1]" position="replace">
+            <div class="mb-1">Carrito</div>
+        </xpath>
         
     </template>
     
