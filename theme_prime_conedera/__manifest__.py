@@ -1,5 +1,5 @@
 {
-    'name': 'Theme Conedera',
+    'name': 'Theme Prime Conedera',
     'version': '18.0.1.0.0',
     'description': '''
         Modulo personalizado para Odoo 18 CM
@@ -23,7 +23,7 @@
     ],
     'auto_install': False,
     'application': False,
-    'installable': False,
+    'installable': True,
     'assets': {
         
     },
