@@ -1,9 +1,18 @@
-.custom_my_cart {
-
-    .my_cart_quantity {
-        top: -15px !important;
-        left: 20px !important;
+@include media-breakpoint-up(lg) {
+    @if o-website-value('header-template') == 'prime_style_4' {
+        #wrapwrap > header {
+            .tp-account-info {
+                @include tp-font-icons {
+                    font-size: 1.2rem;
+                }
+                .my_wish_quantity, .my_cart_quantity {
+                    @include o-position-absolute($left: 20px, $top: -15px);
+                    padding: 0;
+                    border-radius: 40px;
+                    vertical-align: top;
+                }
+            }
+        }
     }
-
 }
 
