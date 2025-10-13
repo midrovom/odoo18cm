@@ -19,6 +19,7 @@
     ],
     'data': [
         'views/headers.xml',
+        'views/website_template.xml'
     ],
     'auto_install': False,
     'application': False,
