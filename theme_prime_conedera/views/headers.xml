@@ -8,7 +8,7 @@
                     <div class="d-flex align-items-center">
                         <div class="flex-shrink-0">
                             <a href="#" class="tp-account-info-sidebar-action">
-                                <i class="dri dri-user tp-light-bg rounded-circle"/>
+                                <i class="dri dri-user"/>
                             </a>
                         </div>
                         <div class="flex-grow-1 ms-3 d-none d-xl-block">
