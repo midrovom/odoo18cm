@@ -12,7 +12,7 @@
     'category': 'Website',
     'depends': [
         'website',
-        'theme_prime'
+        # 'theme_prime'
     ],
     'data': [
 
