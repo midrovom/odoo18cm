@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+    <template id="template_header_style_4" inherit_id="theme_prime.template_header_style_4">
+        <xpath expr="//div[@class='row align-items-center justify-content-end tp-account-info']" position="replace">
+            <div class="row align-items-center justify-content-end tp-account-info custom_my_cart">
+                <div class="col-auto my-1">
+                    <div class="d-flex align-items-center">
+                        <div class="flex-shrink-0">
+                            <t t-nocache="The number of products is dynamic, this rendering cannot be cached.">
+                                <t t-set="website_sale_cart_quantity" t-value="request.session['website_sale_cart_quantity'] if 'website_sale_cart_quantity' in request.session else website.sale_get_order().cart_quantity or 0"/>
+                                <t t-set="show_cart" t-value="website.has_ecommerce_access()"/>
+                                <div t-attf-class="o_not_editable position-relative o_wsale_my_cart tp-cart-sidebar-action #{not show_cart and 'd-none'}">
+                                    <a href="/shop/cart">
+                                        <i class="dri dri-cart"/>
+                                        <sup class="my_cart_quantity badge bg-primary" t-out="website_sale_cart_quantity" t-att-data-order-id="request.session.get('sale_order_id', '')"/>
+                                    </a>
+                                </div>
+                            </t>
+                        </div>
+                        <div class="flex-grow-1 ms-3 d-none d-xl-block">
+                            <div>Carrito</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </xpath>
+        
+    </template>
+    
+</odoo>
