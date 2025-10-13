@@ -9,7 +9,7 @@
     'author': 'Mauricio Idrovo',
     'website': 'https://callphoneecuador.com',
     'license': 'LGPL-3',
-    'category': 'eCommerce',
+    'category': 'Website',
     'depends': [
         'website'
     ],
