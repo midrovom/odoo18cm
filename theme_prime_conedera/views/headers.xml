@@ -26,8 +26,8 @@
             </div>
         </xpath>
 
-        <xpath expr="//t[@t-call='website.navbar_nav']" position="inside">
-            <t t-set="_nav_class" t-value="'justify-content-between'"/>
+        <xpath expr="//t[@t-set='_nav_class']" position="replace">
+            <t t-set="_nav_class" t-value="'flex-grow-1 justify-content-between'"/>
         </xpath>
         
     </template>
