@@ -1,7 +1,7 @@
 @include media-breakpoint-up(lg) {
     @if o-website-value('header-template') == 'prime_style_4' {
         #wrapwrap > header .tp-account-info {
-            .custom_cart_quantity {
+            .my_cart_quantity {
                 @include o-position-absolute($left: 20px, $top: -15px);
                 padding: 0;
                 border-radius: 40px;
@@ -11,7 +11,7 @@
     }
 }
 
-.custom_cart_quantity {
+.my_cart_quantity {
     position: absolute;
     left: 20px;
     top: -15px;
