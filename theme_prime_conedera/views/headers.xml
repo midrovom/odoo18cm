@@ -12,7 +12,6 @@
                             </a>
                         </div>
                         <div class="flex-grow-1 ms-3 d-none d-xl-block">
-                            <div t-nocache="User may vary." style="max-width: 150px;" class="text-truncate mb-1"><t t-out="not user_id._is_public() and user_id.name or 'Guest'"/></div>
                             <a class="tp-account-info-sidebar-action" href="#"><p class="h6 mb-0">Login</p></a>
                         </div>
                     </div>
