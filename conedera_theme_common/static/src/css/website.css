@@ -1,0 +1,8 @@
+.my_cart_quantity {
+    position: absolute;
+    left: 20px;
+    top: -15px;
+    padding: 0;
+    border-radius: 40px;
+    vertical-align: top;
+}

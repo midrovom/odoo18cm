@@ -12,7 +12,6 @@
     'category': 'Website',
     'depends': [
         'website',
-        'theme_prime',
     ],
     'data': [
 
@@ -22,8 +21,8 @@
     'installable': True,
     'assets': {
         'web.assets_frontend': [
-            ('extend', 'theme_prime.web.assets_frontend'),
             'conedera_theme_common/static/src/scss/website.scss',
+            'conedera_theme_common/static/src/css/website.css',
         ],
     }
 }
