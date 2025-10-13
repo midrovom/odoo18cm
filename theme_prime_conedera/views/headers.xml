@@ -32,7 +32,7 @@
                             </t>
                         </div>
                         <div class="flex-grow-1 ms-3 d-none d-xl-block">
-                            <div>Carrito</div>
+                            <a href="/shop/cart"><p class="h6 mb-0">Carrito</p></a>
                         </div>
                     </div>
                 </div>
