@@ -25,6 +25,25 @@
                 </div>
             </div>
         </xpath>
+
+        <xpath expr="//t[@t-call='website.navbar']" position="replace">
+            <t t-call="theme_prime.conedera_navbar_nav">
+                <t t-set="_navbar_classes" t-valuef="d-none d-lg-block shadow-sm"/>
+                <!-- Navbar -->
+                <div id="o_main_nav" class="container">
+                    <t t-call="theme_prime.conedera_navbar_nav">
+                        <t t-set="_nav_class" t-value="'flex-grow-1'"/>
+                        <!-- Menu -->
+                        <t t-foreach="website.menu_id.child_id" t-as="submenu">
+                            <t t-call="website.submenu">
+                                <t t-set="item_class" t-value="'nav-item'"/>
+                                <t t-set="link_class" t-value="'nav-link'"/>
+                            </t>
+                        </t>
+                    </t>
+                </div>
+            </t>
+        </xpath>
         
     </template>
     
