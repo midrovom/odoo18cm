@@ -4,21 +4,21 @@
     <template id="template_header_style_4" inherit_id="theme_prime.template_header_style_4">
         <xpath expr="//div[@class='row align-items-center justify-content-end tp-account-info']" position="replace">
             <div class="row align-items-center justify-content-end tp-account-info">
-                <div class="col-auto my-1">
-                    <div class="col-auto my-1" t-if="not user_id._is_public() or request.website.viewref('portal.user_sign_in').active">
-                        <div class="d-flex align-items-center">
-                            <div class="flex-shrink-0">
-                                <a href="#" class="tp-account-info-sidebar-action">
-                                    <i class="dri dri-user tp-light-bg rounded-circle"/>
-                                </a>
-                            </div>
-                            <div class="flex-grow-1 ms-3 d-none d-xl-block">
-                                <div t-nocache="User may vary." style="max-width: 150px;" class="text-truncate mb-1"><t t-out="not user_id._is_public() and user_id.name or 'Guest'"/></div>
-                                <a class="tp-account-info-sidebar-action" href="#"><p class="h6 mb-0">Login</p></a>
-                            </div>
+                <div class="col-auto my-1" t-if="not user_id._is_public() or request.website.viewref('portal.user_sign_in').active">
+                    <div class="d-flex align-items-center">
+                        <div class="flex-shrink-0">
+                            <a href="#" class="tp-account-info-sidebar-action">
+                                <i class="dri dri-user tp-light-bg rounded-circle"/>
+                            </a>
+                        </div>
+                        <div class="flex-grow-1 ms-3 d-none d-xl-block">
+                            <div t-nocache="User may vary." style="max-width: 150px;" class="text-truncate mb-1"><t t-out="not user_id._is_public() and user_id.name or 'Guest'"/></div>
+                            <a class="tp-account-info-sidebar-action" href="#"><p class="h6 mb-0">Login</p></a>
                         </div>
                     </div>
-                    
+                </div>
+                
+                <div class="col-auto my-1">
                     <div class="d-flex align-items-center">
                         <div class="flex-shrink-0">
                             <t t-nocache="The number of products is dynamic, this rendering cannot be cached.">
