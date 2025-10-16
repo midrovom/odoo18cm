@@ -1,8 +1,10 @@
 .search_custom {
-    border-end-end-radius: 20px !important;
+    border-top-left-radius: 20px !important;
+    border-bottom-left-radius: 20px !important;
 }
 
 .button_search_custom {
-    border-start-start-radius: 20px !important;
-    background-color: aqua;
+    border-top-right-radius: 20px !important;
+    border-bottom-right-radius: 20px !important;
+    background-color: #FF931E ;
 }
