@@ -1,9 +1,7 @@
 .search_custom {
-    border-end-end-radius: 0;
-    background-color: aqua;
+    border-end-end-radius: 20px;
 }
 
 .button_search_custom {
-    border-start-start-radius: 0;
-    background-color: aqua;
+    border-start-start-radius: 20px;
 }
