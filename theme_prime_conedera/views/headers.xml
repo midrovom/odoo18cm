@@ -3,8 +3,8 @@
 
     <template id="template_header_style_4" inherit_id="theme_prime.template_header_style_4">
         <xpath expr="//t[@t-call='website.website_search_box_input']" position="inside">
-            <t t-set="_input_classes" t-valuef="bg-secondary rounded-pill"/>
-            <t t-set="_submit_classes" t-valuef="bg-secondary rounded-pill"/>
+            <t t-set="_input_classes" t-valuef="bg-secondary rounded-pill search_custom"/>
+            <t t-set="_submit_classes" t-valuef="bg-secondary rounded-pill button_search_custom"/>
         </xpath>
         
         <xpath expr="//div[@class='row align-items-center justify-content-end tp-account-info']" position="replace">
