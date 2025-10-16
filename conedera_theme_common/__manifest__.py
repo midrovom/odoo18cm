@@ -12,7 +12,6 @@
     'category': 'Website',
     'depends': [
         'website',
-        # 'theme_prime'
     ],
     'data': [
 
@@ -20,9 +19,9 @@
     'auto_install': False,
     'application': False,
     'installable': True,
-    # 'assets': {
-    #     'web.assets_frontend': [
-    #         'conedera_theme_common/static/src/scss/website.scss',
-    #     ],
-    # }
+    'assets': {
+        'web.assets_frontend': [
+            'conedera_theme_common/static/src/scss/website.scss',
+        ],
+    }
 }
