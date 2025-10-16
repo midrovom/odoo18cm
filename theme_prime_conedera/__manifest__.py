@@ -24,13 +24,8 @@
     'auto_install': False,
     'application': False,
     'assets': {
-        # 'web.assets_frontend': [
-        #     'theme_prime_conedera/static/src/scss/website.scss',
-        #     'theme_prime_conedera/static/src/css/website.css',
-        # ],
-        # 'web.assets_backend': [
-        #     'theme_prime_conedera/static/src/scss/website.scss',
-        #     'theme_prime_conedera/static/src/css/website.css',
-        # ]
+        'web.assets_frontend': [
+            'theme_prime_conedera/static/src/scss/website.scss',
+        ],
     },
 }

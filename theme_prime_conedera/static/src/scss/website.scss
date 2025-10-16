@@ -1,21 +1,6 @@
-@include media-breakpoint-up(lg) {
-    @if o-website-value('header-template') == 'prime_style_4' {
-        #wrapwrap > header .tp-account-info {
-            .custom_cart_quantity {
-                @include o-position-absolute($left: 20px, $top: -15px);
-                padding: 0;
-                border-radius: 40px;
-                vertical-align: top;
-            }
-        }
+@media (min-width: 992px) {
+    #wrapwrap > header .tp-header-box .tp-account-info .my_cart_quantity {
+        top: -15px !important;
+        left: 20px !important;
     }
-}
-
-.custom_cart_quantity {
-    position: absolute;
-    left: 20px;
-    top: -15px;
-    padding: 0;
-    border-radius: 40px;
-    vertical-align: top;
 }

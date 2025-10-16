@@ -20,10 +20,9 @@
     'auto_install': False,
     'application': False,
     'installable': True,
-    'assets': {
-        'web.assets_frontend': [
-            'conedera_theme_common/static/src/scss/website.scss',
-            # 'conedera_theme_common/static/src/css/website.css',
-        ],
-    }
+    # 'assets': {
+    #     'web.assets_frontend': [
+    #         'conedera_theme_common/static/src/scss/website.scss',
+    #     ],
+    # }
 }
