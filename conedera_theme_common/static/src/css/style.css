@@ -8,6 +8,6 @@
 }
 
 input[type="search"].rounded-pill {
-    padding-left: 15px;
+    padding-left: 20px;
     padding-right: 120px !important; /* espacio para el botón */
 }
