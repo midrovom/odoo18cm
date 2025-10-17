@@ -17,3 +17,17 @@ input[type="search"].rounded-pill {
     padding-left: 20px;
     padding-right: 120px !important;
 }
+
+
+.nav-item-short-border {
+    position: relative; /* necesario para posicionar el pseudo-elemento */
+}
+
+.nav-item-short-border::after {
+    content: "";
+    position: absolute;
+    right: 0;           /* al borde derecho */
+    top: 25%;           /* empieza un poco abajo */
+    height: 50%;        /* ocupa la mitad del alto del li */
+    border-right: 2px solid white; /* borde corto */
+}
