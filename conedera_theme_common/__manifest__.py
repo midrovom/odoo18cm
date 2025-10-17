@@ -14,7 +14,7 @@
         'website',
     ],
     'data': [
-
+        'viewss/website_template.xml'
     ],
     'auto_install': False,
     'application': False,
