@@ -31,3 +31,7 @@ input[type="search"].rounded-pill {
     height: 30%;        /* ocupa la mitad del alto del li */
     border-right: 2px solid white; /* borde corto */
 }
+
+.nav-item-short-border:last-child::after {
+  display: none;
+}
