@@ -9,7 +9,7 @@
         </xpath>
 
         <xpath expr="//t[@t-call='website.submenu']" position="inside">
-            <t t-set="item_class" t-value="flex-grow-1 text-center"/>
+            <t t-set="item_class" t-value="'flex-grow-1 text-center'"/>
         </xpath>
         
         <xpath expr="//div[@class='row align-items-center justify-content-end tp-account-info']" position="replace">
