@@ -7,6 +7,12 @@
     z-index: 10 !important; /* evita que se oculte cuando haces click */
 }
 
+.btn-search-custom:hover {
+    background-color: #e57f00 !important; /* tono más oscuro */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* sombra ligera */
+    transform: translateY(-2px); /* pequeño efecto de elevación */
+}
+
 input[type="search"].rounded-pill {
     padding-left: 20px;
     padding-right: 120px !important; /* espacio para el botón */
