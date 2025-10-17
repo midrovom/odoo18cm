@@ -9,7 +9,7 @@
 
     <template id="option_header_brand_logo" name="Custom Header Brand Logo" inherit_id="website.option_header_brand_logo">
         <xpath expr="//a" position="attributes">
-            <attribute name="t-attf-class" remove="navbar-brand logo #{_link_class}"></attribute>
+            <attribute name="t-attf-class" remove=""/>
         </xpath>
     </template>
 
