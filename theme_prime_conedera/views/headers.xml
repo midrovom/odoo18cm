@@ -16,7 +16,7 @@
                             <a href="#" class="tp-account-info-sidebar-action">
                                 <img src="/theme_prime_conedera/static/src/img/login.png"
                                      alt="Carrito"
-                                     class="user-icon"
+                                     class="dri dri-user"
                                      width="18"
                                      height="18"/>
                                 <!-- <i class="dri dri-user"/> -->
@@ -38,7 +38,7 @@
                                     <a href="/shop/cart">
                                         <img src="/theme_prime_conedera/static/src/img/cart.png"
                                              alt="Carrito"
-                                             class="cart-icon"
+                                             class="dri dri-cart"
                                              width="18"
                                              height="18"/>
                                         <!-- <i class="dri dri-cart"/> -->
