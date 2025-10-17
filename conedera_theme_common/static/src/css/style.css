@@ -8,9 +8,8 @@
 }
 
 .btn-search-custom:hover {
-    background-color: #e57f00 !important; /* tono más oscuro */
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* sombra ligera */
-    transform: translateY(-2px); /* pequeño efecto de elevación */
+    background-color: #FFAE4D !important;
+    transform: translateY(-2px);
 }
 
 input[type="search"].rounded-pill {
