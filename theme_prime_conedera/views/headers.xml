@@ -14,7 +14,12 @@
                     <div class="d-flex align-items-center">
                         <div class="flex-shrink-0">
                             <a href="#" class="tp-account-info-sidebar-action">
-                                <i class="dri dri-user"/>
+                                <img src="/theme_prime_conedera/static/src/img/login.png"
+                                     alt="Carrito"
+                                     class="user-icon"
+                                     width="18"
+                                     height="18"/>
+                                <!-- <i class="dri dri-user"/> -->
                             </a>
                         </div>
                         <div class="flex-grow-1 ms-3 d-none d-xl-block">
@@ -34,8 +39,8 @@
                                         <img src="/theme_prime_conedera/static/src/img/cart.png"
                                              alt="Carrito"
                                              class="cart-icon"
-                                             width="20"
-                                             height="20"/>
+                                             width="18"
+                                             height="18"/>
                                         <!-- <i class="dri dri-cart"/> -->
                                         <sup class="my_cart_quantity badge bg-primary" t-out="website_sale_cart_quantity" t-att-data-order-id="request.session.get('sale_order_id', '')"/>
                                     </a>
