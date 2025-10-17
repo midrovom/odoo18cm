@@ -9,7 +9,6 @@
 
 .btn-search-custom:hover {
     background-color: #FFAE4D !important;
-    transform: translateY(-2px);
 }
 
 input[type="search"].rounded-pill {
