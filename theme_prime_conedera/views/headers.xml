@@ -5,7 +5,7 @@
         <xpath expr="//t[@t-call='website.website_search_box_input']" position="inside">
             <t t-set="_classes" t-valuef="position-relative"/>
             <t t-set="_input_classes" t-valuef="rounded-pill"/>
-            <t t-set="_submit_classes" t-valuef="position-absolute end-0 top-0 rounded-pill"/>
+            <t t-set="_submit_classes" t-valuef="btn-search-custom position-absolute end-0 top-0 rounded-pill"/>
         </xpath>
         
         <xpath expr="//div[@class='row align-items-center justify-content-end tp-account-info']" position="replace">
