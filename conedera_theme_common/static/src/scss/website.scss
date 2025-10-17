@@ -1,15 +1,7 @@
-// @media (min-width: 992px) {
-//     #wrapwrap > header .tp-header-box .tp-account-info .my_cart_quantity {
-//         top: -15px !important;
-//         left: 20px !important;
-//     }
-// }
-
-
 @media (min-width: 992px) {
     #wrapwrap > header {
         .tp-header-box {
-            padding-top: 15px !important;
+            padding-top: 25px !important;
             .tp-account-info {
                 .my_cart_quantity {
                     top: -15px !important;
@@ -18,13 +10,4 @@
             }
         }
     }
-}
-
-
-.search_custom {
-    border-end-end-radius: 0;
-}
-
-.button_search_custom {
-    border-start-start-radius: 0;
 }
