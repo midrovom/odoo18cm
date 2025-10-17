@@ -2,11 +2,11 @@
     background-color: #FF931E !important;
     border: none !important;
     color: white !important;
-    height: 100% !important; /* Igual altura que el input */
+    
     z-index: 10 !important; /* evita que se oculte cuando haces click */
 }
 
 input[type="search"].rounded-pill {
-    height: 100% !important;
+    
     padding-right: 3rem !important; /* espacio para el botón */
 }
