@@ -31,7 +31,12 @@
                                 <t t-set="show_cart" t-value="website.has_ecommerce_access()"/>
                                 <div t-attf-class="o_not_editable position-relative o_wsale_my_cart tp-cart-sidebar-action #{not show_cart and 'd-none'}">
                                     <a href="/shop/cart">
-                                        <i class="dri dri-cart"/>
+                                        <img src="/theme_prime_conedera/static/src/img/cart.png"
+                                             alt="Carrito"
+                                             class="cart-icon"
+                                             width="20"
+                                             height="20"/>
+                                        <!-- <i class="dri dri-cart"/> -->
                                         <sup class="my_cart_quantity badge bg-primary" t-out="website_sale_cart_quantity" t-att-data-order-id="request.session.get('sale_order_id', '')"/>
                                     </a>
                                 </div>
