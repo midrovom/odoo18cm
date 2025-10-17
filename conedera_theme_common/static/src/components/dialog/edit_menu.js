@@ -3,6 +3,7 @@ import { EditMenuDialog } from "@website/components/dialog/edit_menu";
 export class EditMenuDialogCustom extends EditMenuDialog {
     setup() {
         super.setup();
+        console.log("ENTRAAAA AQUI ##############");
     }
 
     addMenu(isMegaMenu) {
