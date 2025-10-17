@@ -13,12 +13,11 @@
 
         // Menu
         > .navbar {
-            padding: 0px;
             #top_menu {
                 > .nav-item {
                     > a.nav-link {
                         &:before {
-                            background-color: #FF931E;
+                            background-color: #FF931E !important;
                         }
                     }
                 }
