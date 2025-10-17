@@ -38,7 +38,12 @@
                             </t>
                         </div>
                         <div class="flex-grow-1 ms-3 d-none d-xl-block">
-                            <a href="/shop/cart"><p class="h6 mb-0">Carrito</p></a>
+                            <t t-set="website_sale_cart_quantity" t-value="request.session['website_sale_cart_quantity'] if 'website_sale_cart_quantity' in request.session else website.sale_get_order().cart_quantity or 0"/>
+                            <t t-set="show_cart" t-value="website.has_ecommerce_access()"/>
+                            <div t-attf-class="o_not_editable position-relative o_wsale_my_cart tp-cart-sidebar-action #{not show_cart and 'd-none'}">
+                                <a href="/shop/cart"><p class="h6 mb-0">Carrito</p></a>
+                            </div>
+                            
                         </div>
                     </div>
                 </div>
