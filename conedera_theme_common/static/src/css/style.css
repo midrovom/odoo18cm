@@ -18,18 +18,17 @@ input[type="search"].rounded-pill {
     padding-right: 120px !important;
 }
 
-
 .nav-item-short-border {
-    position: relative; /* necesario para posicionar el pseudo-elemento */
+    position: relative;
 }
 
 .nav-item-short-border::after {
     content: "";
     position: absolute;
-    right: 0;           /* al borde derecho */
-    top: 35%;           /* empieza un poco abajo */
-    height: 30%;        /* ocupa la mitad del alto del li */
-    border-right: 2px solid white; /* borde corto */
+    right: 0;
+    top: 35%;
+    height: 30%;
+    border-right: 2px solid white;
 }
 
 .nav-item-short-border:last-child::after {
