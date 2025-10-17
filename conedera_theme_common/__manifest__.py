@@ -24,7 +24,7 @@
             'conedera_theme_common/static/src/scss/website.scss',
             'conedera_theme_common/static/src/css/style.css',
         ],
-        'web.assets_backend': [
+        'web.assets_editor': [
             'conedera_theme_common/static/src/components/dialog/edit_menu.js'
         ]
     }
