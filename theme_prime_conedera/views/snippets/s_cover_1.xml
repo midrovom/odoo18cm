@@ -8,7 +8,12 @@
                 <div class="carousel-item p-0 active" data-name="Slide">
                     <div class="container-fluid px-0">
                         <div class="row content g-0 align-items-center s_col_no_bgcolor s_nb_column_fixed">
-                            <div class="tp-editor-bg-color-n-shadow border order-2 order-lg-1 jumbotron rounded px-4 offset-lg-1 col-lg-4 pt24 pb24 o_cc o_cc1 border" data-name="Box">
+                            <a href="/shop">
+                                <div class="order-1 order-lg-2 offset-lg-1 col-lg-6">
+                                    <img class="img img-fluid" src="/web/image/theme_prime.s_cover_1_1" alt="Cover Image 01"></img>
+                                </div>
+                            </a>
+                            <!-- <div class="tp-editor-bg-color-n-shadow border order-2 order-lg-1 jumbotron rounded px-4 offset-lg-1 col-lg-4 pt24 pb24 o_cc o_cc1 border" data-name="Box">
                                 <img class="img img-fluid" src="/web/image/theme_prime.s_cover_1_brand_1" style="width: 25%;" alt="Cover Brand Image 01"></img>
                                 <h2 class="mt-2">Special Collection</h2>
                                 <h5>Starting at $1200000.00</h5>
@@ -16,7 +21,7 @@
                             </div>
                             <div class="order-1 order-lg-2 offset-lg-1 col-lg-6">
                                 <img class="img img-fluid" src="/web/image/theme_prime.s_cover_1_1" alt="Cover Image 01"></img>
-                            </div>
+                            </div> -->
                         </div>
                     </div>
                 </div>
