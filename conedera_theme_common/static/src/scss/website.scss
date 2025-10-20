@@ -32,14 +32,14 @@
     .carousel-indicators:not(.s_carousel_indicators_dots) {
         button {
             &.active, &:hover {
-                background-color: #FF931E;
+                background-color: #FF931E !important;
             }
         }
     }
     .carousel-indicators.s_carousel_indicators_dots {
         button {
             &.active, &:hover {
-                background-color: #FF931E;
+                background-color: #FF931E !important;
             }
         }
     }
