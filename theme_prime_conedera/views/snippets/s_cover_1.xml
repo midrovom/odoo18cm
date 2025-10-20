@@ -33,12 +33,12 @@
             <div class="carousel-inner">
                 <div class="carousel-item active">
                     <a href="/shop">
-                        <img class="d-block w-100" src="/web/image/theme_prime.s_cover_1_1" alt="Cover Image 01">
+                        <img class="d-block w-100" src="/web/image/theme_prime.s_cover_1_1" alt="Cover Image 01"></img>
                     </a>
                 </div>
                 <div class="carousel-item">
                     <a href="/shop">
-                        <img class="d-block w-100" src="/web/image/theme_prime.s_cover_1_2" alt="Cover Image 02">
+                        <img class="d-block w-100" src="/web/image/theme_prime.s_cover_1_2" alt="Cover Image 02"></img>
                     </a>
                 </div>
             </div>
