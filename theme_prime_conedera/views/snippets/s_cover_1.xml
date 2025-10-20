@@ -2,6 +2,10 @@
 <odoo>
 
     <template id="s_cover_1" name="S Cover 1 Conedera" inherit_id="theme_prime.s_cover_1">
+        <xpath expr="//section[@class='s_cover_1']" position="attributes">
+            <attribute name="class">s_cover_1 my-5</attribute>
+        </xpath>
+        
         <xpath expr="//div[@class='carousel-inner']" position="replace">
             <div class="carousel-inner">
                 <!-- #01 -->
