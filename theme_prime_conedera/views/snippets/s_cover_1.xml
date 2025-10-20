@@ -6,6 +6,10 @@
             <attribute name="class">s_cover_1 my-5</attribute>
         </xpath>
 
+        <xpath expr="//div[@class='tp-custom-carousel s_carousel s_carousel_rounded carousel slide']" position="attributes">
+            <attribute name="data-bs-ride">carousel</attribute>
+        </xpath>
+
         <xpath expr="//div[@class='carousel-inner']" position="replace">
             <div class="carousel-inner">
                 <div class="carousel-item active">
