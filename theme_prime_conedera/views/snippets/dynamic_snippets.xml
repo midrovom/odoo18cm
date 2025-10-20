@@ -1,18 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <odoo>
-
-    <!-- <template id="s_brand_month_tabs" name="Brand Month Tabs">
-        <section 
-            contenteditable="false" 
-            class="s_brand_month_tabs_wrapper tp-droggol-18-builder-snippet pt32 pb32" 
-            
-            data-tp-snippet-id="s_brand_month_tabs">
-            
-            <div class="container s_brand_month_tabs dr_not_editable"/>
-        
-        </section>
-    </template> -->
-
     <template id="s_brand_month_tabs" name="2 Column Deals">
         <section class="s_brand_month_tabs pt32 pb32">
             <div class="container">
@@ -36,7 +23,7 @@
                 </div>
             </div>
             <div class="s_dialog_preview">
-                <img src="/theme_prime/static/src/img/dynamic_snippet/s_d_two_column_snippet_preview.png" class="img-fluid mx-auto"/>
+                <img src="/theme_prime_conedera/static/src/img/dynamic_snippet/s_brand_month_snippet_preview.png" class="img-fluid mx-auto"/>
             </div>
         </section>
     </template>
