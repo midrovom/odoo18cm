@@ -7,7 +7,7 @@
                     <div class="col-lg-6 s_d_product_count_down tp-droggol-18-builder-snippet" data-tp-snippet-id="s_d_product_count_down">
                         <div class="mt-4">
                             <h3 class="s_d_full_title">
-                                <span class="s_d_title_text"><p class="mb-0 d-inline-block"> Marcas del mes</p></span>
+                                <span ><p class="mb-0 d-inline-block"> Marcas del mes</p></span>
                             </h3>
                         </div>
                         <div contenteditable="false" />
