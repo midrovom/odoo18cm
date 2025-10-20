@@ -19,7 +19,7 @@
                 </div>
             </div>
             <div class="s_dialog_preview">
-                <img src="/theme_prime_conedera/static/src/img/dynamic_snippets/s_brand_month_snippet_preview.png" class="img-fluid mx-auto"/>
+                <img src="/theme_prime_conedera/static/src/img/dynamic_snippets/s_brand_month_snippet.png" class="img-fluid mx-auto"/>
             </div>
         </section>
     </template>
