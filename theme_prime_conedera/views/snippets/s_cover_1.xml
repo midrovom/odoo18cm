@@ -2,13 +2,9 @@
 <odoo>
 
     <template id="s_cover_1" name="S Cover 1 Conedera" inherit_id="theme_prime.s_cover_1">
-        <xpath expr="//section" position="attributes">
-            <attribute name="class">s_cover_1 o_colored_level my-5</attribute>
-        </xpath>
-
         <xpath expr="//div[@class='carousel-inner']" position="replace">
-            <div class="carousel-inner">
-                <!-- #01 -->
+            <!-- <div class="carousel-inner">
+
                 <div class="carousel-item p-0 active" data-name="Slide">
                     <div class="container-fluid px-0">
                         <div class="row content g-0 align-items-center s_col_no_bgcolor s_nb_column_fixed">
@@ -20,7 +16,7 @@
                         </div>
                     </div>
                 </div>
-                <!-- #02 -->
+
                 <div class="carousel-item p-0" data-name="Slide">
                     <div class="container-fluid px-0">
                         <div class="row content g-0 align-items-center s_col_no_bgcolor s_nb_column_fixed">
@@ -31,6 +27,19 @@
                             </a>
                         </div>
                     </div>
+                </div>
+            </div> -->
+
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <a href="/shop">
+                        <img class="d-block w-100" src="/web/image/theme_prime.s_cover_1_1" alt="Cover Image 01">
+                    </a>
+                </div>
+                <div class="carousel-item">
+                    <a href="/shop">
+                        <img class="d-block w-100" src="/web/image/theme_prime.s_cover_1_2" alt="Cover Image 02">
+                    </a>
                 </div>
             </div>
         </xpath>
