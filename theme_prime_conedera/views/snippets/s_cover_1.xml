@@ -7,33 +7,6 @@
         </xpath>
 
         <xpath expr="//div[@class='carousel-inner']" position="replace">
-            <!-- <div class="carousel-inner">
-
-                <div class="carousel-item p-0 active" data-name="Slide">
-                    <div class="container-fluid px-0">
-                        <div class="row content g-0 align-items-center s_col_no_bgcolor s_nb_column_fixed">
-                            <a href="/shop">
-                                <div class="order-1 order-lg-2 offset-lg-1 col-lg-6">
-                                    <img class="img img-fluid" src="/web/image/theme_prime.s_cover_1_1" alt="Cover Image 01"></img>
-                                </div>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="carousel-item p-0" data-name="Slide">
-                    <div class="container-fluid px-0">
-                        <div class="row content g-0 align-items-center s_col_no_bgcolor s_nb_column_fixed">
-                            <a href="/shop">
-                                <div class="order-1 order-lg-2 offset-lg-1 col-lg-6">
-                                    <img class="img img-fluid" src="/web/image/theme_prime.s_cover_1_2" alt="Cover Image 02"></img>
-                                </div>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-            </div> -->
-
             <div class="carousel-inner">
                 <div class="carousel-item active">
                     <a href="/shop">

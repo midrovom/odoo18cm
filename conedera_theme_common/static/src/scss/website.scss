@@ -25,3 +25,22 @@
         }
     }
 }
+
+
+
+.tp-custom-carousel.s_carousel {
+    .carousel-indicators:not(.s_carousel_indicators_dots) {
+        button {
+            &.active, &:hover {
+                background-color: #FF931E;
+            }
+        }
+    }
+    .carousel-indicators.s_carousel_indicators_dots {
+        button {
+            &.active, &:hover {
+                background-color: #FF931E;
+            }
+        }
+    }
+}
