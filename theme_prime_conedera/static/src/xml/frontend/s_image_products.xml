@@ -1,7 +1,7 @@
 <?xml version="1.0" ?>
 <templates>
 
-    <t t-name="theme_prime.s_d_image_products_block_tmpl" t-inherit="theme_prime.s_d_image_products_block_tmpl" t-inherit-mode="primary" owl="1">
+    <t t-name="s_d_image_products_block_tmpl_custom" t-inherit="theme_prime.s_d_image_products_block_tmpl">
         <xpath expr="//t[@t-if='data.length']" position="replace">
             <t t-if="data.length">
                 <!-- Carrusel activo -->

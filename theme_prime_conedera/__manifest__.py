@@ -28,6 +28,7 @@
     'application': False,
     'assets': {
         'web.assets_frontend': [
+            'theme_prime_conedera/static/src/js/frontend/dynamic_snippets.js',
             'theme_prime_conedera/static/src/xml/frontend/s_image_products.xml',
         ],
         # 'website.assets_wysiwyg': [

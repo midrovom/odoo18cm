@@ -16,7 +16,7 @@
                             </div>
                         </div>
                         <div class="col-md-9">
-                            <div contenteditable="false" class="s_d_image_products_block dr_not_editable"/>
+                            <div contenteditable="false" class="s_d_image_products_block_custom dr_not_editable"/>
                         </div>
                     </div>
                 </div>
