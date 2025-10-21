@@ -11,5 +11,5 @@ let EXTRA_OPTIONS = { TpExtraOpts: { startDate: '', endDate: '', priceList: '*' 
 let CATEGORY_SELECTOR_DATA = { TpRecordSelector: { ...CATEGORIES_DATA, defaultVal: { selectionType: 'manual', recordsIDs: [], model: 'product.public.category'}}};
 
 registry.category('theme_prime_snippet_registry')
-    .add('s_c_product_count_down', { widgets: { ...SELECTOR_DATA, ...EXTRA_OPTIONS }, defaultValue: { noSnippet: true }})
-    .add('s_c_product_small_block', { widgets: { ...SELECTOR_DATA, ...EXTRA_OPTIONS }, defaultValue: { noSnippet: true }});
+    .add('s_c_product_count_down', { widgets: { ...SELECTOR_DATA, }, defaultValue: { noSnippet: true }})
+    .add('s_c_product_small_block', { widgets: { ...SELECTOR_DATA, }, defaultValue: { noSnippet: true }});
