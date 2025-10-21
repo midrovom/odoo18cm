@@ -1,7 +1,7 @@
 <?xml version="1.0" ?>
 <templates>
 
-    <t t-name="s_d_image_products_block_tmpl_custom" t-inherit="theme_prime.s_d_image_products_block_tmpl" t-mode-extension="extension" owl="1">
+    <t t-name="s_d_image_products_block_tmpl_custom" t-inherit="theme_prime.s_d_image_products_block_tmpl" t-mode-extension="primary" owl="1">
         <xpath expr="//t[@t-if='data.length']" position="replace">
             <t t-if="data.length">
                 <div class="owl-carousel droggol_product_slider">
