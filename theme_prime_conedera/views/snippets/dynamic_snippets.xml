@@ -9,7 +9,7 @@
                             <p class="mb-0 d-inline-block o_default_snippet_text">Marcas del Mes</p>
                         </span>
                     </h3>
-                    <div class="row s_animation_block_2">
+                    <div class="row align-items-center s_animation_block_2">
                         <div class="col-12 col-md-3 py-3 tp-block-container">
                             <div class="tp-block-wrapper h-100">
                                 <div class="tp-block-container h-100 tp-editor-bg-image oe_img_bg o_bg_img_center" style="background-image: url('/web/image/theme_prime.s_gallery_01');"></div>

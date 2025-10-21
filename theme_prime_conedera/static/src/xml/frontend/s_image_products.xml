@@ -5,7 +5,7 @@
         <xpath expr="//t[@t-if='data.length']" position="replace">
             <t t-if="data.length">
                 <!-- Carrusel activo -->
-                <div class="owl-carousel droggol_product_slider d-owl-ppr-3">
+                <div class="owl-carousel droggol_product_slider">
                     <!-- Cada "products" es una diapositiva -->
                     <t t-foreach="data" t-as="products" t-key="products_index + 1">
                         <div class="item px-2">
