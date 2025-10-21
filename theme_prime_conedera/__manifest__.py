@@ -27,6 +27,6 @@
     'auto_install': False,
     'application': False,
     'assets': {
-        
+        'theme_prime_conedera/static/src/js/frontend/dynamic_snippets.js',
     },
 }
