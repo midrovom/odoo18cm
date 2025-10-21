@@ -27,9 +27,9 @@
     'auto_install': False,
     'application': False,
     'assets': {
-        # 'web.assets_frontend': [
-        #     'theme_prime_conedera/static/src/js/frontend/dynamic_snippets.js',
-        # ],
+        'web.assets_frontend': [
+            'theme_prime_conedera/static/src/xml/frontend/s_image_products.xml',
+        ],
         # 'website.assets_wysiwyg': [
         #     'theme_prime_conedera/static/src/components/registries.js'
         # ],
