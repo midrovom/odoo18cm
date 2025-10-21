@@ -15,7 +15,7 @@ import { localization } from "@web/core/l10n/localization";
 import { _t } from "@web/core/l10n/translation";
 
 publicWidget.registry.s_c_product_count_down = ProductRootWidget.extend(ProductsBlockMixins, {
-    selector: '.s_d_product_count_down',
+    selector: '.s_c_product_count_down',
 
     bodyTemplate: 's_d_product_count_down_template',
     bodySelector: '.s_d_product_count_down_body',
@@ -68,7 +68,7 @@ publicWidget.registry.s_c_product_count_down = ProductRootWidget.extend(Products
 
 
 publicWidget.registry.s_c_product_small_block = ProductRootWidget.extend(ProductsBlockMixins, {
-    selector: '.s_d_product_small_block',
+    selector: '.s_c_product_small_block',
 
     bodyTemplate: 's_d_product_small_block_template',
     bodySelector: '.s_d_product_small_block_body',
@@ -98,7 +98,7 @@ publicWidget.registry.s_c_product_small_block = ProductRootWidget.extend(Product
                     $img.one("load", function () {
                         setTimeout(function () {
                             if (!uiUtils.isSmall()) {
-                                var height = self.$target.parents('.s_d_2_column_snippet').find('.s_d_product_count_down .owl-item.active .tp-side-card').height();
+                                var height = self.$target.parents('.s_d_2_column_snippet').find('.s_c_product_count_down .owl-item.active .tp-side-card').height();
                                 self.$('.owl-item').height(height+1);
                             }
                         }, 300);
