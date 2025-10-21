@@ -9,11 +9,11 @@ import { groupBy } from "@web/core/utils/arrays";
 import { localization } from "@web/core/l10n/localization";
 import { _t } from "@web/core/l10n/translation";
 
-publicWidget.registry.s_d_image_products_block_custom = ProductRootWidget.extend(ProductsBlockMixins, MarkupRecords, {
+publicWidget.registry.s_d_image_products_block = ProductRootWidget.extend(ProductsBlockMixins, MarkupRecords, {
     selector: '.s_d_image_products_block_wrapper',
-    bodyTemplate: 's_d_image_products_block_tmpl_custom',
+    bodyTemplate: 's_d_image_products_block_tmpl',
     snippetNodeAttrs: (ProductRootWidget.prototype.snippetNodeAttrs || []).concat(['data-selection-info']),
-    bodySelector: '.s_d_image_products_block_custom',
+    bodySelector: '.s_d_image_products_block',
     controllerRoute: '/theme_prime/get_products_data',
     fieldstoFetch: ['name', 'rating', 'public_categ_ids'],
     extraLibs: (ProductRootWidget.prototype.extraLibs || []).concat(['/theme_prime/static/lib/OwlCarousel2-2.3.4/owl.carousel.js']),
