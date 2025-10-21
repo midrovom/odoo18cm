@@ -2,7 +2,7 @@
 <odoo>
     <template id="s_d_image_products_block" name="Image + Products Cards Conedera" inherit_id="theme_prime.s_d_image_products_block">
         <xpath expr="//section" position="replace">
-            <section class="tp-droggol-18-builder-snippet s_banner_2 s_d_image_products_block_wrapper_custom pt64 pb64" data-tp-snippet-id="s_d_image_products_block_custom">
+            <section class="tp-droggol-18-builder-snippet s_banner_2 s_d_image_products_block_wrapper pt64 pb64" data-tp-snippet-id="s_d_image_products_block_custom">
                 <div class="container">
                     <h3 class="mt-2">
                         <span class="s_d_title_text px-2">
