@@ -4,7 +4,7 @@
         <section class="s_brand_month_tabs pt32 pb32">
             <div class="container">
                 <div class="row">
-                    <div class="col-lg-6 s_d_product_count_down tp-droggol-18-builder-snippet" >
+                    <div class="col-lg-6 s_d_product_count_down " >
                         <div class="mt-4">
                             <h3 class="">
                                 <span ><p class="mb-0 d-inline-block"> Marcas del mes</p></span>
@@ -12,7 +12,7 @@
                         </div>
                         <div contenteditable="false" />
                     </div>
-                    <div class="col-lg-6 s_d_product_small_block tp-droggol-18-builder-snippet" >
+                    <div class="col-lg-6 s_d_product_small_block " >
                         <div class="mt-4"></div>
                         <div contenteditable="false" />
                     </div>
