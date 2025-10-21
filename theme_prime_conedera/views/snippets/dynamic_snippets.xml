@@ -4,17 +4,13 @@
         <section class="s_brand_month_tabs pt32 pb32">
             <div class="container">
                 <div class="row">
-                    <div class="col-lg-6 s_c_product_count_down tp-droggol-18-builder-snippet" data-tp-snippet-id="s_c_product_count_down">
-                        <div class="mt-4">
+                    <div class="col-lg-auto s_c_product_count_down tp-droggol-18-builder-snippet" data-tp-snippet-id="s_c_product_count_down">
+                        <div>
                             <h3 class="">
                                 <span ><p class="mb-0 d-inline-block"> Marcas del mes</p></span>
                             </h3>
                         </div>
                         <div contenteditable="false" class="s_c_product_count_down_body dr_not_editable" />
-                    </div>
-                    <div class="col-lg-6 s_c_product_small_block tp-droggol-18-builder-snippet" data-tp-snippet-id="s_c_product_small_block">
-                        <div class="mt-4"></div>
-                        <div contenteditable="false" class="s_c_product_small_block_body dr_not_editable" />
                     </div>
                 </div>
             </div>
