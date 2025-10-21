@@ -4,9 +4,9 @@
         <xpath expr="//section" position="replace">
             <section class="tp-droggol-18-builder-snippet s_banner_2 s_d_image_products_block_wrapper pt64 pb64" data-tp-snippet-id="s_d_image_products_block">
                 <div class="container">
-                    <h3 class="s_d_full_title mt-2">
+                    <h3 class="mt-2">
                         <span class="s_d_title_text px-2">
-                            <p class="mb-0 d-inline-block o_default_snippet_text"> Super Deallllllll</p>
+                            <p class="mb-0 d-inline-block o_default_snippet_text">Marcas del Mes</p>
                         </span>
                     </h3>
                     <div class="row s_animation_block_2">
