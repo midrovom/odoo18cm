@@ -7,4 +7,4 @@ let SELECTOR_DATA = { TpRecordSelector: { ...PRODUCTS_DATA, defaultVal: { select
 let EXTRA_OPTIONS = { TpExtraOpts: { startDate: '', endDate: '', priceList: '*' } };
 
 registry.category('theme_prime_snippet_registry')
-    .extend('s_d_image_products_block', { widgets: { ...SELECTOR_DATA, ...EXTRA_OPTIONS }, defaultValue: { hasSwitcher: true, } })
+    .add('s_d_image_products_block', { widgets: { ...SELECTOR_DATA, ...EXTRA_OPTIONS }, defaultValue: { hasSwitcher: true, } })

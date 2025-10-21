@@ -11,7 +11,7 @@ import { _t } from "@web/core/l10n/translation";
 
 publicWidget.registry.s_d_image_products_block = ProductRootWidget.extend(ProductsBlockMixins, MarkupRecords, {
     selector: '.s_d_image_products_block_wrapper',
-    bodyTemplate: 's_d_image_products_block_tmpl',
+    bodyTemplate: 's_d_image_products_block_tmpl_custom',
     snippetNodeAttrs: (ProductRootWidget.prototype.snippetNodeAttrs || []).concat(['data-selection-info']),
     bodySelector: '.s_d_image_products_block',
     controllerRoute: '/theme_prime/get_products_data',
