@@ -1,26 +1,35 @@
 <?xml version="1.0" encoding="utf-8"?>
 <odoo>
-    <template id="s_brand_month_tabs" name="Brand Month Tabs">
-        <section class="s_brand_month_tabs pt32 pb32">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-auto s_c_product_count_down tp-droggol-18-builder-snippet" data-tp-snippet-id="s_c_product_count_down">
-                        <div>
-                            <h3 class="">
-                                <span ><p class="mb-0 d-inline-block"> Marcas del mes</p></span>
-                            </h3>
+    <template id="s_d_image_products_block" name="Image + Products Cards Conedera" t-inherit="theme_prime.s_d_image_products_block">
+        <xpath expr="//section" position="replace">
+            <section class="tp-droggol-18-builder-snippet s_banner_2 s_d_image_products_block_wrapper pt64 pb64" data-tp-snippet-id="s_d_image_products_block">
+                <div class="container">
+                    <div class="row s_animation_block_2">
+                        <div class="col-12 col-md-3 py-3 tp-block-container">
+                            <div class="tp-block-wrapper h-100">
+                                <div class="tp-block-container h-100 tp-editor-bg-image oe_img_bg o_bg_img_center" style="background-image: url('/web/image/theme_prime.s_gallery_01');">
+                                    <div class="tp-block-content h-100 w-100">
+                                        <h2 class="tp-title text-center w-100">Alo Productos</h2>
+                                        <div class="tp-subtitle text-center w-100">
+                                            <p class="o_default_snippet_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et.</p>
+                                            <a href="/shop" class="btn btn-primary o_default_snippet_text">Shop Now</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
-                        <div contenteditable="false" class="s_c_product_count_down_body dr_not_editable" />
+                        <div class="col-md-9">
+                            <h3 class="s_d_full_title mt-2">
+                                <span class="s_d_title_text px-2">
+                                    <p class="mb-0 d-inline-block o_default_snippet_text"> Super Deallllllll</p>
+                                </span>
+                            </h3>
+                            <div contenteditable="false" class="s_d_image_products_block dr_not_editable"/>
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div class="s_dialog_preview">
-                <img src="/theme_prime_conedera/static/src/img/dynamic_snippets/conedera_brand_month_snippet.png" class="img-fluid mx-auto"/>
-            </div>
-        </section>
+            </section>
+        </xpath>
     </template>
 
 </odoo>
-
-
-<!-- data-ui-config-info='{"style":"s_card_style_1","mode":"slider","tabStyle":"tp-droggol-18-builder-snippet-tab-1", "bestseller":true,"newArrived":true,"discount":true,"activeActions":["rating", "quick_view", "add_to_cart", "comparison", "wishlist", "category_info", "label"],"model":"product.template", "ppr":4, "limit":6, "mobileConfig": { "style": "default", "mode": "default" }}'  -->

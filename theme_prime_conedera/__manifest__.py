@@ -30,9 +30,9 @@
         'web.assets_frontend': [
             'theme_prime_conedera/static/src/js/frontend/dynamic_snippets.js',
         ],
-        'website.assets_wysiwyg': [
-            'theme_prime_conedera/static/src/components/registries.js'
-        ],
+        # 'website.assets_wysiwyg': [
+        #     'theme_prime_conedera/static/src/components/registries.js'
+        # ],
         
     },
 }
