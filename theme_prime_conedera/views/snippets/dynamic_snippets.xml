@@ -8,13 +8,13 @@
                         <div class="col-12 col-md-3 py-3 tp-block-container">
                             <div class="tp-block-wrapper h-100">
                                 <div class="tp-block-container h-100 tp-editor-bg-image oe_img_bg o_bg_img_center" style="background-image: url('/web/image/theme_prime.s_gallery_01');">
-                                    <div class="tp-block-content h-100 w-100">
+                                    <!-- <div class="tp-block-content h-100 w-100">
                                         <h2 class="tp-title text-center w-100">Alo Productos</h2>
                                         <div class="tp-subtitle text-center w-100">
                                             <p class="o_default_snippet_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et.</p>
                                             <a href="/shop" class="btn btn-primary o_default_snippet_text">Shop Now</a>
                                         </div>
-                                    </div>
+                                    </div> -->
                                 </div>
                             </div>
                         </div>
