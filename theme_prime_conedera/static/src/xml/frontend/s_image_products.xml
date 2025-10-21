@@ -5,12 +5,12 @@
         <h1>HOLAAA</h1>
     </t>
 
-    <t t-name="s_d_image_products_block_tmpl" t-inherit="theme_prime.s_d_image_products_block_tmpl" t-mode-extension="extension" owl="1">
+    <!-- <t t-name="s_d_image_products_block_tmpl" t-inherit="theme_prime.s_d_image_products_block_tmpl" t-mode-extension="extension" owl="1">
         <xpath expr="//t[@t-if='data.length']" position="replace">
             <t t-if="data.length">
-                <!-- Carrusel activo -->
+
                 <div class="owl-carousel droggol_product_slider">
-                    <!-- Cada "products" es una diapositiva -->
+
                     <t t-foreach="data" t-as="products" t-key="products_index + 1">
                         <div class="item px-2">
                             <div class="row g-0">
@@ -53,5 +53,5 @@
         <t t-elif="widget.noDataTemplate">
             <t t-call="#{widget.noDataTemplate}"></t>
         </t>
-    </t>
+    </t> -->
 </templates>
