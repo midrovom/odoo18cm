@@ -10,7 +10,7 @@ import { localization } from "@web/core/l10n/localization";
 import { _t } from "@web/core/l10n/translation";
 
 publicWidget.registry.s_d_image_products_block_custom = ProductRootWidget.extend(ProductsBlockMixins, MarkupRecords, {
-    selector: '.s_d_image_products_block_wrapper',
+    selector: '.s_d_image_products_block_wrapper_custom',
     bodyTemplate: 's_d_image_products_block_tmpl_custom',
     snippetNodeAttrs: (ProductRootWidget.prototype.snippetNodeAttrs || []).concat(['data-selection-info']),
     bodySelector: '.s_d_image_products_block_custom',
