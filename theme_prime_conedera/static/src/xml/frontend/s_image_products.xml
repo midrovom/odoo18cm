@@ -2,6 +2,7 @@
 <templates id="template" xml:space="preserve">
 
     <t t-name="s_d_image_products_block_tmpl_conedera">
+        <h1>ENTRA AL TEMPLATE</h1>
         <t t-if="data.length">
             <div class="owl-carousel droggol_product_slider">
                 <t t-foreach="data" t-as="products" t-key="products_index + 1">
