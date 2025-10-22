@@ -25,7 +25,7 @@
     </template> -->
 
 
-    <template id="s_d_image_products_block" name="Image + Products Card Conedera">
+    <template id="s_d_image_products_block" name="Image + Products Card Conedera" inherit_id="theme_prime.s_d_image_products_block">
         <section class="tp-droggol-18-builder-snippet s_banner_2 s_d_image_products_block_wrapper pt64 pb64" data-tp-snippet-id="s_d_image_products_block_conedera">
             <div class="container">
                 <h3 class="mt-2">
