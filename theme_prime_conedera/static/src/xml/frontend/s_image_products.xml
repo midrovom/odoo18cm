@@ -3,8 +3,7 @@
 
     <t  t-name="s_d_image_products_block_tmpl_conedera" 
         t-inherit="theme_prime.s_d_image_products_block_tmpl" 
-        t-inherit-mode="primary"
-        priority="20">
+        t-inherit-mode="extension">
 
         <xpath expr="//div[@class='owl-carousel droggol_product_slider_top']" position="attributes">
             <attribute name="class">owl-carousel droggol_product_slider</attribute>
