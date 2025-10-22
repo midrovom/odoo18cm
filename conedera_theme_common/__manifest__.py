@@ -13,7 +13,7 @@
     'depends': [
         'website',
         'droggol_theme_common',
-        'theme_prime'
+        'theme_prime_conedera'
     ],
     'data': [
         'views/website_template.xml'
@@ -24,7 +24,7 @@
     'assets': {
         'web.assets_frontend': [
             'conedera_theme_common/static/src/js/frontend/dynamic_snippets.js',
-            # 'conedera_theme_common/static/src/xml/frontend/s_image_products.xml',
+            'theme_prime_conedera/static/src/xml/frontend/s_image_products.xml',
             'conedera_theme_common/static/src/scss/website.scss',
             'conedera_theme_common/static/src/snippets/s_banner_2/000.scss',
             'conedera_theme_common/static/src/css/style.css',
