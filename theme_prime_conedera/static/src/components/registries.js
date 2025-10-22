@@ -13,7 +13,7 @@ let EXTRA_OPTIONS = { TpExtraOpts: { startDate: '', endDate: '', priceList: '*' 
 // Registrar snippet en el registry
 registry.category('theme_prime_snippet_registry')
     .add('s_d_image_products_block_conedera', { 
-        template: 's_d_image_products_block_conedera',  // <--- Aquí tu template
+        // template: 's_d_image_products_block_conedera',
         widgets: { ...SELECTOR_DATA, ...EXTRA_OPTIONS }, 
         defaultValue: { hasSwitcher: true }
     });
