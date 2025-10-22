@@ -12,7 +12,7 @@
     'category': 'Website',
     'depends': [
         'website',
-        'theme_prime',
+        'droggol_theme_common',
     ],
     'data': [
         'views/website_template.xml'
@@ -25,6 +25,7 @@
             'conedera_theme_common/static/src/scss/website.scss',
             'conedera_theme_common/static/src/snippets/s_banner_2/000.scss',
             'conedera_theme_common/static/src/css/style.css',
+            'conedera_theme_common/static/src/xml/frontend/s_image_products.xml',
         ],
         # 'web.assets_editor': [
         #     'conedera_theme_common/static/src/components/dialog/edit_menu.js'
