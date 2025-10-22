@@ -6,5 +6,14 @@ let PRODUCTS_DATA = { models: ['product.template', 'product.product'], fields: [
 let SELECTOR_DATA = { TpRecordSelector: { ...PRODUCTS_DATA, defaultVal: { selectionType: 'manual', recordsIDs: [], model: 'product.template'}}};
 let EXTRA_OPTIONS = { TpExtraOpts: { startDate: '', endDate: '', priceList: '*' } };
 
+// registry.category('theme_prime_snippet_registry')
+//     .add('s_d_image_products_block_conedera', { widgets: { ...SELECTOR_DATA, ...EXTRA_OPTIONS }, defaultValue: { hasSwitcher: true, } })
+
+
+// Registrar snippet en el registry
 registry.category('theme_prime_snippet_registry')
-    .add('s_d_image_products_block_conedera', { widgets: { ...SELECTOR_DATA, ...EXTRA_OPTIONS }, defaultValue: { hasSwitcher: true, } })
+    .add('s_d_image_products_block_conedera', { 
+        template: 'theme_prime_conedera.s_d_image_products_block_conedera',  // <--- Aquí tu template
+        widgets: { ...SELECTOR_DATA, ...EXTRA_OPTIONS }, 
+        defaultValue: { hasSwitcher: true }
+    });
