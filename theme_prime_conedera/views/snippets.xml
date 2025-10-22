@@ -3,7 +3,7 @@
 
     <template id="snippets" inherit_id="website.snippets">
         <t t-snippet="website.s_banner" position="before">
-            <t t-snippet="theme_prime_conedera.product_brand_snippet" string="Product Brand Tabs" group="theme_prime_dynamic">
+            <t t-snippet="theme_prime_conedera.s_d_image_products_block_conedera" string="Image + Product Cards Conedera" group="theme_prime_dynamic">
                 <keywords>products, dynamic</keywords>
             </t>
         </t>
