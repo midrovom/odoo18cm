@@ -1,7 +1,7 @@
 <?xml version="1.0" ?>
 <templates id="template" xml:space="preserve">
 
-    <t  t-name="s_d_image_products_block_tmpl" 
+    <t  t-name="s_d_image_products_block_tmpl_custom" 
         t-inherit="theme_prime.s_d_image_products_block_tmpl" 
         t-inherit-mode="primary"
         priority="20">
