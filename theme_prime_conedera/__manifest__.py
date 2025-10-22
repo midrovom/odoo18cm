@@ -25,6 +25,7 @@
     ],
     'auto_install': False,
     'application': False,
+    'installable': True,
     'assets': {
         'web.assets_frontend': [
             'theme_prime_conedera/static/src/js/frontend/dynamic_snippets.js',
