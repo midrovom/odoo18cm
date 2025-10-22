@@ -13,6 +13,7 @@
     'depends': [
         'website',
         'droggol_theme_common',
+        'theme_prime'
     ],
     'data': [
         'views/website_template.xml'
