@@ -22,12 +22,13 @@
     'installable': True,
     'assets': {
         'web.assets_frontend': [
+            'conedera_theme_common/static/src/js/frontend/dynamic_snippets.js',
             'conedera_theme_common/static/src/scss/website.scss',
             'conedera_theme_common/static/src/snippets/s_banner_2/000.scss',
             'conedera_theme_common/static/src/css/style.css',
         ],
-        # 'web.assets_editor': [
-        #     'conedera_theme_common/static/src/components/dialog/edit_menu.js'
-        # ]
+        'website.assets_wysiwyg': [
+            'conedera_theme_common/static/src/components/registries.js'
+        ],
     }
 }
