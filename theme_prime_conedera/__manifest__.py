@@ -28,6 +28,7 @@
     'assets': {
         'web.assets_frontend': [
             'theme_prime_conedera/static/src/xml/frontend/s_image_products.xml',
+            'theme_prime_conedera/static/src/js/frontend/dynamic_snippets.js',
         ],
         
     },
