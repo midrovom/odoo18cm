@@ -22,7 +22,7 @@
         'views/headers.xml',
         'views/snippets/s_cover_1.xml',
         'views/snippets/dynamic_snippets.xml',
-        # 'views/snippets.xml',
+        'views/snippets.xml',
     ],
     'auto_install': False,
     'application': False,
@@ -30,7 +30,8 @@
     'assets': {
         'web.assets_frontend': [
             'theme_prime_conedera/static/src/js/frontend/dynamic_snippets.js',
-            'theme_prime_conedera/static/src/xml/frontend/s_image_products.xml',
+            # 'theme_prime_conedera/static/src/xml/frontend/s_image_products.xml',
+            'theme_prime_conedera/static/src/xml/frontend/2_col_deal.xml',
         ],
         'website.assets_wysiwyg': [
             'theme_prime_conedera/static/src/components/registries.js'
