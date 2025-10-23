@@ -45,7 +45,7 @@ import { _t } from "@web/core/l10n/translation";
 publicWidget.registry.s_d_product_small_block_conedera = ProductRootWidget.extend(ProductsBlockMixins, {
     selector: '.s_d_product_small_block_conedera',
 
-    bodyTemplate: 's_d_product_small_block_template_conedera',
+    bodyTemplate: 's_d_product_small_block_template',
     bodySelector: '.s_d_product_small_block_body_conedera',
 
     snippetNodeAttrs: (ProductRootWidget.prototype.snippetNodeAttrs || []).concat(['data-selection-info']),
