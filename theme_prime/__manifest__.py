@@ -112,6 +112,7 @@
             'theme_prime/static/src/js/frontend/dynamic_snippets.js',
             'theme_prime/static/src/xml/frontend/dynamic_snippets.xml',
             'theme_prime/static/src/xml/cards.xml',
+            'theme_prime/static/src/xml/cards_2.xml',
             'theme_prime/static/src/xml/listing_cards.xml',
             'theme_prime/static/src/xml/frontend/utils.xml',
             'theme_prime/static/src/xml/frontend/category_filters.xml',
