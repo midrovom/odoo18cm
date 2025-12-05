@@ -9,7 +9,7 @@
             <field name="inherit_id" ref="product.product_template_only_form_view"/>
             <field name="arch" type="xml">
                 <xpath expr="//field[@name='categ_id']" position="after">
-                    <field name="product_pauta_ids" />
+                    <field name="product_pauta_ids" widget="many2many_tags" />
                 </xpath>
             </field>
         </record>
